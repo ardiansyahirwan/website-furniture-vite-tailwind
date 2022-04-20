@@ -1,16 +1,17 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Hero from './components/Hero.vue'
-import Background from './components/BackgroundHeader.vue'
+import BackgroundHeader from './components/BackgroundHeader.vue'
+import GallerySection from './components/GallerySection.vue'
 </script>
 
 <template>
-<header>
-   <navbar></navbar>
-   <background class="absolute top-0 md:right-0 z-0"></background>
-   <hero class="relative md:bottom-10 z-10"></hero>
-</header>
+   <header>
+      <navbar></navbar>
+      <background-header class="absolute top-0 md:right-0 z-0"></background-header>
+      <hero class="relative md:bottom-10 z-10"></hero>
+   </header>
+   <main>
+      <gallery-section></gallery-section>
+   </main>
 </template>
-
-<style>
-</style>
