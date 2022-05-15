@@ -5,11 +5,13 @@
             Fill your <span class="text-grey-primary-100">space</span> at home
             with <span class="text-grey-primary-100">stylish furniture</span>
          </h1>
-         <p class="pt-4 mb-8 text-justify text-black-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui obcaecati libero tenetur, autem aperiam, vel repellat aspernatur reprehenderit, ex illo fugit tempora mollitia praesentium dolorum consectetur neque ea rem soluta.</p>
+         <p class="pt-4 mb-8 text-justify text-black-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Qui obcaecati libero tenetur, autem aperiam, vel repellat aspernatur reprehenderit, ex illo fugit tempora
+            mollitia praesentium dolorum consectetur neque ea rem soluta.</p>
          <button-secondary textButton="See More >"></button-secondary>
       </div>
       <div>
-         <img src="../assets/images/hero.svg" class="w-full" alt="hero">
+         <img src="../assets/images/hero.svg" class="md:w-auto md:h-auto" alt="hero">
       </div>
    </div>
 </template>

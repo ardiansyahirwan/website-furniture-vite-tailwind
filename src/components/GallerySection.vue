@@ -1,6 +1,5 @@
 <template>
-   <div
-      class="mx-auto p-6 md:px-16 md:py-44 md:mx-4 grid md:grid-cols-2 gap-4 md:gap-12 justify-center md:justify-evenly">
+   <div class="grid md:grid-cols-2 gap-4 md:gap-12 justify-center md:justify-evenly">
       <div>
          <image-galleries></image-galleries>
       </div>
@@ -13,7 +12,7 @@
             Qui, placeat culpa facere nam non pariatur itaque fugit rem officia rerum, perferendis obcaecati corrupti
             nobis quas!</p>
 
-         <div class="flex flex-row items-center gap-4 pb-2" v-for=" item  in  list  " :key=" item.id ">
+         <div class="flex flex-row items-center gap-4 pb-2" v-for="  item   in   list   " :key=" item.id ">
             <div class="rounded-full bg-brown-primary w-3 h-3"></div>
             <p>{{ item.name }}</p>
          </div>

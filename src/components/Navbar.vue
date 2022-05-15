@@ -21,7 +21,8 @@
    </nav>
 </template>
 
-<script setup>
+<script setup>// @ts-nocheck
+
 import { ref } from 'vue'
 import ButtonOutlined from './ButtonOutlined.vue'
 import {MenuAlt4Icon} from '@heroicons/vue/solid'
@@ -31,7 +32,7 @@ const Navbar = ref( [
    { id: 1, item: 'Blog' },
 ] )
 
-const menuBar = ref(null);
+const menuBar = ref();
 const toggleMenu = () =>
 {
    menuBar.value.classList.toggle('hidden')
